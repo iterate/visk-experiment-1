@@ -1,1 +1,3 @@
-function fizzBuzz() {}
+function fizzBuzz() {
+    return 1;
+}
