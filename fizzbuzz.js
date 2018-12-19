@@ -3,5 +3,5 @@ function fizzBuzz(n) {
 }
 
 function test() {
-    fizzBuzz();
+    fizzBuzz(n);
 }
