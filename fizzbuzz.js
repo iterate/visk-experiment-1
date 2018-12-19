@@ -2,6 +2,6 @@ function fizzBuzz(n) {
     return 1;
 }
 
-function test(input) {
+function test(input, expectedOutput) {
     fizzBuzz(n);
 }
