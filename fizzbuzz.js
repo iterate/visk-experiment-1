@@ -1,5 +1,9 @@
+function mod(n) {
+    return n % 3 == 0;
+}
+
 function fizzBuzz(n) {
-    if (n % 3 == 0) {
+    if (mod(n)) {
         return "Fizz!";
     }
     return n;
