@@ -1,5 +1,5 @@
 function fizzBuzz(n) {
-    if (true) {
+    if (true == true) {
         return n;
     }
 }
