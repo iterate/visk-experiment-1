@@ -1,5 +1,7 @@
 function fizzBuzz(n) {
-    return n;
+    if (true) {
+        return n;
+    }
 }
 
 function test(input, expectedOutput) {
