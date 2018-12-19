@@ -1,3 +1,3 @@
-function fizzBuzz() {
+function fizzBuzz(n) {
     return 1;
 }
