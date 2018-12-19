@@ -19,4 +19,4 @@ function test(input, expectedOutput) {
 
 test(1, 1);
 test(2, 2);
-test(3, 3);
+test(3, "Fizz");
