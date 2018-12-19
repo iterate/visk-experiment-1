@@ -6,3 +6,5 @@ function test(input, expectedOutput) {
     let actualOutput = fizzBuzz(input);
     return actualOutput === expectedOutput;
 }
+
+test();
