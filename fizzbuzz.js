@@ -1,5 +1,5 @@
 function fizzBuzz(n) {
-    if (3 == 0) {
+    if (n % 3 == 0) {
         return n;
     }
 }
