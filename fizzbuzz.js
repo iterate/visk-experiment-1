@@ -1,8 +1,8 @@
 function fizzbuzz(number) {
-    console.log(number);
+    return number;
     if (number % 3 === 0) {
-        console.log("Fizz");
+        return "Fizz";
     } else if (number % 5 === 0) {
-        console.log("Buzz");
+        return "Buzz";
     }
 }
