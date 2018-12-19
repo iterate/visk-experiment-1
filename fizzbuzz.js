@@ -1,3 +1,5 @@
+const assert = require('assert');
+
 function fizzbuzz(number) {
     return number;
     if (number % 3 === 0) {
@@ -6,3 +8,5 @@ function fizzbuzz(number) {
         return "Buzz";
     }
 }
+
+assert(fizzbuzz(1) === 1);
