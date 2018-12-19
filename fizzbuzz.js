@@ -4,7 +4,7 @@ function fizzBuzz(n) {
 
 function test(input, expectedOutput) {
     let actualOutput = fizzBuzz(input);
-    return actualOutput === expectedOutput;
+    actualOutput === expectedOutput;
 }
 
 test(1, 1);
