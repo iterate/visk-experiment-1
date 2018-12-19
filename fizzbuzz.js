@@ -5,6 +5,7 @@ function fizzBuzz(n) {
 function test(input, expectedOutput) {
     let actualOutput = fizzBuzz(input);
     if (!actualOutput === expectedOutput) {
+        console.log();
     }
 }
 
