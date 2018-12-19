@@ -1,6 +1,6 @@
 function fizzBuzz(n) {
     if (n % 3 == 0) {
-        return n;
+        return "Fizz!";
     }
     return n;
 }
