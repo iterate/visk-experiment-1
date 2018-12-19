@@ -5,7 +5,14 @@ function fizzBuzz(n) {
 function test(input, expectedOutput) {
     let actualOutput = fizzBuzz(input);
     if (!(actualOutput === expectedOutput)) {
-        console.log("FAIL!", input, actualOutput, "is not", expectedOutput);
+        console.log(
+            "FAIL!",
+            input,
+            "is",
+            actualOutput,
+            "is not",
+            expectedOutput
+        );
         process.exit(1);
     }
 }
