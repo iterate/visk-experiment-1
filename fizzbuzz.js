@@ -7,4 +7,4 @@ function test(input, expectedOutput) {
     return actualOutput === expectedOutput;
 }
 
-test(1);
+test(1, 1);
