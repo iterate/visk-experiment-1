@@ -10,3 +10,4 @@ function fizzbuzz(number) {
 }
 
 assert(fizzbuzz(1) === 1);
+assert(fizzbuzz(3) === "Fizz");
