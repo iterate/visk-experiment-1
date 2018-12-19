@@ -2,7 +2,7 @@ function fizzBuzz(n) {
     if (n % 3 == 0) {
         return n;
     }
-    n;
+    return n;
 }
 
 function test(input, expectedOutput) {
